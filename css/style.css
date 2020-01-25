@@ -1,0 +1,324 @@
+body{
+	color: #666666;
+	overflow-x: hidden;
+}
+
+a{
+	color: #666666;
+}
+
+.wrap{
+	max-width: 1280px
+	margin:0 auto;
+}
+
+nav{
+	height: 98px;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding-top: 20px;
+
+}
+
+.navbar-default{
+	border:none;
+	background-color: white;
+}
+
+nav img{
+	float: left;
+}
+
+nav ul li{
+	float: left;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+nav ul li:nth-child(2){
+	padding: 0 15px;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-color: black;
+}
+/*	***			Часть с телефоном				****/
+header{
+	max-width: 1280px;
+	height: 540px;
+	margin: 0 auto;
+	background-image: url(../img/background.png);
+
+}
+	/****	****		Кнопки		****		******/
+
+header ul li a{
+	width: 120px;
+	height: 125px;
+	float: right;
+}
+
+header ul li:nth-child(1) a{
+	background: url(../img/phone.png)no-repeat center;
+	background-color: #017D82;
+}
+
+header ul li:nth-child(2) a{
+	background: url(../img/tablet.png)no-repeat center;
+	background-color: #038688;
+}
+
+header ul li:nth-child(3) a{
+	background-image: linear-gradient(to top, #0AADA0, #069491);
+	background: url(../img/monitor.png)no-repeat center;
+}
+/*ХОВЕРЫ КНОПОК*/
+header ul li:nth-child(1):hover a {
+	background-color: #01bd21;
+	background: url(../img/phone.png)no-repeat center;
+}
+
+header ul li:nth-child(2):hover a{
+	background: url(../img/tablet.png)no-repeat center;
+	background-color: #00AEA9;
+}
+
+/*Конец ховеров*/
+/*****		Телефон		*****/
+header>img{
+	position: absolute;
+	left: 420px;
+	top: 160px;
+}
+
+header{
+	color: white;
+}
+
+header .col-lg-3{
+	margin-left: 300px;
+	margin-top: 60px;
+}
+
+header .col-lg-6 img{
+	position: absolute;
+	top: 0px;
+	left: 30px;
+}
+header .col-lg-6 p{
+	text-align: left;
+	margin-left: 80px;
+	font-size: 21px;
+}
+
+header .col-lg-6{
+	margin-top: 60px;
+}
+
+h2{
+	font-size: 39px;
+	margin-top: 280px;
+	margin-left: 662px;
+	text-align: left;
+}
+
+h2 p{
+	font-size: 21px;
+	text-align: left;
+	padding-left: 2px;
+}
+
+button{
+	width: 175px;
+	height: 45px;
+	margin-left: 39px;
+	margin-top: 25px;
+	background-color: #54d3c3;
+	border:none;
+	padding: 0;
+}
+
+button .img{
+	float: left;
+	background-color: #259D8E;
+	width: 53px;
+	height: 100%;
+	margin-top: 0;
+	background-image: url(../img/basket.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+button p{
+	font-size: 21px;
+	padding-top: 8px;
+}
+
+button:hover .img, button:hover{
+	background-color: #05A892;
+	border: 1px solid #04917E;
+}
+
+/****	****		Часть с текстом		****	****/
+.top{
+	max-width: 1280px;
+	min-height: 750px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.top p{
+	max-width: 925px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.top h3{
+	margin: 0;
+	padding-top: 40px;
+	font-size: 41px;
+	padding-bottom: 25px; 
+}
+
+.top img{
+	margin-top: 40px;
+	margin-left: 40px; 
+}
+
+/****	***			Часть с ноутбуком		***	***	*/
+
+.middle{
+	max-width: 1280px;
+	height: 700px;
+	margin: 0 auto;
+	background-image: url(../img/background2.png);
+	padding-right: 0; 
+}
+
+.middle .container-fluid{
+	max-width: 100%;
+	height: 170px;
+	display: flex;
+	align-content: stretch;
+	padding: 0; 
+}
+
+.elem{
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	padding-top: 45px;
+}
+
+.elem2{
+	background-color: #097B84;
+}
+.elem3{
+	background-color: #118F99;
+}
+.elem4{
+	background-color: #1DA0AA;
+}
+.elem5{
+	background-color: #29B7C2;
+}
+.elem6{
+	background-color: #3CCAD5;
+}
+/****	***			Ховеры элементов		***	****/
+.elem2:hover{
+	background-color: #08767E;
+}
+.elem3:hover{
+	background-color: #0F8189;
+}
+.elem4:hover{
+	background-color: #1A919A;
+}
+.elem5:hover{
+	background-color: #24A2AB;
+}
+.elem6:hover{
+	background-color: #36B6BF;
+}
+
+.middle .row{
+	margin-top: 150px;
+	padding-left: 150px;
+}
+
+.middle h3{
+	color: white;
+	text-align: left;
+	font-size: 39px;
+	margin-left: 557px;
+	margin-top: -260px;
+}
+
+.middle h3 p{
+	font-size: 17px;
+	text-align: left;
+	padding-left: 2px;
+}
+
+.middle button{
+	color: white;
+	background-color: #06CCB3;
+	margin-left: 560px;
+	margin-top: 40px;
+	position: absolute;
+}
+
+.middle button:hover .img, .middle button:hover{
+	background-color: #05A892;
+	border: 1px solid #04917E;
+}
+
+.middle button .img{
+	background-color: #3EDAC6;
+}
+
+.bottom{
+	max-width: 1280px;
+	height: 480px;
+	margin: 0 auto;
+}
+
+.bottom .left{
+	height: 100%;
+}
+
+.bottom .left h4{
+	position: absolute;
+	font-size: 200px;
+	font-weight: bold;
+	color: #49D7B0;
+	margin-left: 150px;
+	margin-top: 40px;
+}
+
+.bottom .left h4 p{
+	font-size: 74px;
+	font-weight: normal;
+}
+
+.bottom .right{
+	height: 100%;
+	background-color: #49D7B0;
+	background-image: url(../img/arrows.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #42C09E;
+}
+
+footer{
+	max-width: 1280px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+h5{
+	text-align: center;
+	padding-top: 40px;
+	margin: 0;
+	font-size: 23px;
+}
